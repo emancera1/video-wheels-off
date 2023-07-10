@@ -1,6 +1,6 @@
 # JS Video Quickstart
 
-## JS Video Quickstart Default Page
+## JS Video Quickstart Default Page -
 
 Room SID: RMb8b3b0f301548cb3b8b978caa546cbf5
 
