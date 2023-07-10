@@ -1,12 +1,12 @@
 # JS Video Quickstart
 
-## JS Video Quickstart Default Page - 
+## JS Video Quickstart Default Page
 
 Room SID: RMb8b3b0f301548cb3b8b978caa546cbf5
 
-![](RMb8b3b0f301548cb3b8b978caa546cbf5-qs-20230626-01.png)
+![](000_Default_Screen.png)
 
-## Examples
+## Screenshots
 
 ### Bandwidth Restrictions
 
@@ -15,27 +15,27 @@ Room SID: RMb8b3b0f301548cb3b8b978caa546cbf5
 **Audio**
 
 16k Audio
-![](RMb8b3b0f301548cb3b8b978caa546cbf5-qs-bw-audio-16k.png)
+![](001_BR_Audio_16k.png)
 
 32k Audio
-![](RMb8b3b0f301548cb3b8b978caa546cbf5-qs-bw-audio-32k.png)
+![](001_BR_Audio_32k.png)
 
 64k Audio
-![](RMb8b3b0f301548cb3b8b978caa546cbf5-qs-bw-audio-64k.png)
+![](001_BR_Audio_64k.png)
 
 **Video**
 
 64k Video
-![](RMb8b3b0f301548cb3b8b978caa546cbf5-qs-bw-video-64k.png)
+![](001_BR_Video_64k.png)
 
 128k Video
-![](RMb8b3b0f301548cb3b8b978caa546cbf5-qs-bw-video-128k.png)
+![](001_BR_video_128k.png)
 
 256k Video
-![](RMb8b3b0f301548cb3b8b978caa546cbf5-qs-bw-video-256k.png)
+![](001_BR_video_256k.png)
 
 512k Video
-![](RMb8b3b0f301548cb3b8b978caa546cbf5-qs-bw-video-512k.png)
+![](001_BR_video_512k.png)
 
 ### Snapshot
 
