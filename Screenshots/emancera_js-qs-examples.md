@@ -37,71 +37,99 @@ Room SID: RMb8b3b0f301548cb3b8b978caa546cbf5
 512k Video
 ![](001_BR_video_512k.png)
 
-### Snapshot
+### Local Video Filter
 
-Room SID: RMc16436b36dca406ee5ffb72ceea449f1
+Room SID: RM4396f69606c561f4d862ec01c10b7ea1
 
-![](qs-snapshot.png)
+![](002_LVF.png)
 
-### Codecs
+### Local Video Snapshot
 
-Room SID: RMc16436b36dca406ee5ffb72ceea449f1
+Room SID: RM4396f69606c561f4d862ec01c10b7ea1
 
-Note: made sure to `Disconnect from Room` and set the codec each time
+![](003_LVS.png)
+
+### Media Device Selection
+
+Room SID: RM4396f69606c561f4d862ec01c10b7ea1
+
+![Default Devices](004_MDS_Default.png)
+
+
+### Codec Preferences
 
 **Audio Codecs**
 
 ISAC
 
-![ISAC](RM-codec-audio-ISAC.png)
+![ISAC](005_CP_Audio_ISAC.png)
 
 OPUS
 
-![OPUS](RM-codec-audio-opus.png)
+![OPUS](005_CP_Audio_Opus.png)
 
 PCMA
 
-![PCMA](RM-codec-audio-pcma.png)
+![PCMA](005_CP_Audio_PCMA.png)
 
 PCMU
 
-![PCMU](RM-codec-audio-pcmu.png)
+![PCMU](005_CP_Audio_PCMU.png)
 
 **Video Codecs**
 
 H264
 
-![H264](RM-codec-video-h264.png)
+![H264](005_CP_Video_H264.png)
 
 VP8
 
-![VP8](RM-codec-video-vp8.png)
+![VP8](005_CP_Video_VP8.png)
 
 VP9
 
-![VP9](RM-codec-video-vp9.png)
+![VP9](005_CP_Video_VP9.png)
+
+
+### Share Your Screen
+
+Room SID: RM4396f69606c561f4d862ec01c10b7ea1
+
+![Entire Screen Share](006_SS.png)
 
 ### Dominant Speaker
 
-Room SID: RM2d3318ffd0d8b96b7523557aefd71774
+Room SID: RM377885cb23c13a73c3c4f3ab251e56d9
 
-![Alice is speaking](RM-dominant-speaker.png)
+Dominant Speaker "Alice"
+
+![Dominant Speaker "Alice"](007_DSD.png)
+
+### Reconnection States and Events
+
+Room SID: RMf1b4bbb7dfef0b77433d428b3e2ae774
+
+Room State Reconnecting
+![RSE Reconnecting](008_RSE_Reconnecting.png)
+
+Room State Disconnected
+![Reconnect Local](008_RSE_Disconnected.png)
+
 
 ### Network Quality
 
-RM060cc22c0de4663477fd7400b5fd14bf
+RMd5e9fc61c6d1eb380a837332c4424d78
 
 LocalParticipant: 1
 RemoteParticipant: 3
 
 Alice
 
-![Alice NQ](RM-NQ-LP1-RP3.png)
+![Alice NQ](009_NQ.png)
 
 NQ output
 
-```
-NQ Stats:
+```NQ Stats:
 ========
 {
   "level": 5,
@@ -110,7 +138,7 @@ NQ Stats:
     "recv": 5,
     "sendStats": {
       "bandwidth": {
-        "actual": 39904,
+        "actual": 35520,
         "available": null,
         "level": 5
       },
@@ -119,14 +147,14 @@ NQ Stats:
         "level": 5
       },
       "latency": {
-        "jitter": 0.0066458333333333335,
+        "jitter": 0.0041875,
         "rtt": null,
         "level": 5
       }
     },
     "recvStats": {
       "bandwidth": {
-        "actual": 39888,
+        "actual": 110088,
         "available": null,
         "level": 5
       },
@@ -136,7 +164,7 @@ NQ Stats:
       },
       "latency": {
         "jitter": null,
-        "rtt": 0.1093902587890625,
+        "rtt": 0.0766448974609375,
         "level": 5
       }
     }
@@ -146,7 +174,7 @@ NQ Stats:
     "recv": 5,
     "sendStats": {
       "bandwidth": {
-        "actual": 1541632,
+        "actual": 1286552,
         "available": null,
         "level": 5
       },
@@ -155,15 +183,15 @@ NQ Stats:
         "level": 5
       },
       "latency": {
-        "jitter": 0.0014222222222222223,
+        "jitter": 0.0006777777777777778,
         "rtt": null,
         "level": 5
       }
     },
     "recvStats": {
       "bandwidth": {
-        "actual": 1597568,
-        "available": 3252010,
+        "actual": 3900384,
+        "available": 4774574,
         "level": 5
       },
       "fractionLost": {
@@ -172,241 +200,56 @@ NQ Stats:
       },
       "latency": {
         "jitter": null,
-        "rtt": 0.0377197265625,
+        "rtt": 0.08221944173177083,
         "level": 5
       }
     }
   }
 }
-```
-
-RM993241457b0358ead0156a755edc180a
-
-LocalParticipant: 1
-RemoteParticipant: 2
-
-Charlie
-
-![Charlie NQ](RM-NQ-LP1-RP2.png)
 
 ```
-NQ Stats:
-========
-{
-  "level": 5,
-  "audio": {
-    "send": 5,
-    "recv": 5,
-    "sendStats": null,
-    "recvStats": null
-  },
-  "video": {
-    "send": 5,
-    "recv": 5,
-    "sendStats": null,
-    "recvStats": null
-  }
-}
-```
-
-RM0df1dcd152d7f770cd23bdba2254e3ac
-
-LocalParticipant: 1
-RemoteParticipant: 1
-
-Mak
-
-![Mak NQ](RM-NQ-LP1-RP1.png)
-
-```
-NQ Stats:
-========
-null
-```
-
-RM538c1a15e9ccfd1be9c28d619008034c
-
-LocalParticipant: 2
-RemoteParticipant: 0
-
-Bob (no stats, local only)
-
-![DL NQ](RM-NQ-LP2-RP0.png)
-
-```
-NQ Stats:
-========
-{
-  "level": 5,
-  "audio": {
-    "send": 5,
-    "recv": 5,
-    "sendStats": null,
-    "recvStats": null
-  },
-  "video": {
-    "send": 5,
-    "recv": 5,
-    "sendStats": null,
-    "recvStats": null
-  }
-}
-```
-
-RM4a0576ff72b263e1ac950347ef3b99f5
-
-LocalParticipant: 3
-RemoteParticipant: 3
-
-Mak
-
-![Mak and DL NQ](RM-NQ-LP3-RP3.png)
-
-Local stats:
-```
-NQ Stats:
-========
-{
-  "level": 5,
-  "audio": {
-    "send": 5,
-    "recv": 5,
-    "sendStats": {
-      "bandwidth": {
-        "actual": null,
-        "available": null,
-        "level": 5
-      },
-      "fractionLost": {
-        "fractionLost": null,
-        "level": 5
-      },
-      "latency": {
-        "jitter": null,
-        "rtt": null,
-        "level": 5
-      }
-    },
-    "recvStats": {
-      "bandwidth": {
-        "actual": null,
-        "available": null,
-        "level": 5
-      },
-      "fractionLost": {
-        "fractionLost": null,
-        "level": 5
-      },
-      "latency": {
-        "jitter": null,
-        "rtt": null,
-        "level": 5
-      }
-    }
-  },
-  "video": {
-    "send": 5,
-    "recv": 5,
-    "sendStats": {
-      "bandwidth": {
-        "actual": null,
-        "available": null,
-        "level": 5
-      },
-      "fractionLost": {
-        "fractionLost": null,
-        "level": 5
-      },
-      "latency": {
-        "jitter": null,
-        "rtt": null,
-        "level": 5
-      }
-    },
-    "recvStats": {
-      "bandwidth": {
-        "actual": null,
-        "available": null,
-        "level": 5
-      },
-      "fractionLost": {
-        "fractionLost": null,
-        "level": 5
-      },
-      "latency": {
-        "jitter": null,
-        "rtt": null,
-        "level": 5
-      }
-    }
-  }
-}
-```
-
-### Remote Participant Reconnection States
-
-Room SID: **RM380436988dcd936028e784e516774a2c**
-
-![Reconnect Default](RM-reconnect-01.png)
-
-![Reconnect Local](RM-reconnect-02.png)
-
-### Video Track Manual Controls
-
-Room SID: RM8d9dc47968e9fe6b96d33abfe533ee62
-
-Default State
-
-![Default State](RM-VTMC-01.png)
-
-Errors in console
-
-![Errors](RM-VTMC-02.png)
-
-### Local Filter
-
-Room SID: none
-
-![Why errors?](RM-local-filter-errors.png)
-
-### Media Device Selection
-
-Room SID: RM823456977e1bf006c03c3c8ab874faae
-
-![Default view](RM823456977e1bf006c03c3c8ab874faae-preview-media-01.png)
-
-![Other participant view](RM823456977e1bf006c03c3c8ab874faae-preview-media-02.jpeg)
-
-### Share Your Screen
-
-![GH Repo share](RM-screen-share.png)
-
-### Reconnection States and Events
-
-![Default](RM-reconnect-states-01.png)
-
-![Connected](RM-reconnect-states-02.png)
-
-![Reconnected](RM-reconnect-states-03.png)
-
-![Disconnected](RM-reconnect-states-04.png)
 
 ### Enabling and Disabling Tracks
 
-![Audio track disabled](RM-track-disable-audio.png)
+![Audio track disabled Video track disabled](010_EDT_Disabled_Audio_Disabled_Video.png)
 
-![Video track disabled](RM-track-disable-video.png)
+![Audio track disabled Video track enabled](010_EDT_Disabled_Audio_Enabled_Video.png)
+
+![Audio track enabled Video track disabled](010_EDT_Enabled_Audio_Disabled_Video.png)
+
+![Audio track enabled Video track enabled](010_EDT_Enabled_Audio_Disabled_Video.png)
+
+
+### RemoteParticipant Reconnection States and Events
+
+Room SID: RM5e76c53296d84823c5d0ae839b03a06c
+
+![Default](011_RPRS _Local_Connected_Remote_Connected.png)
+
+![Local Connected and Remote Reconnecting](011_RPRS _Local_Connected_Remote_Reconnecting.png)
+
+![Local Reconnecting and Remote Connected](011_RPRS _Local_Connected_Remote_Reconnecting.png)
 
 ### DataTracks
 
-![messaging in DataTracks](RM-data-track.png)
+Room SID: RM39e232cbdbc8c0b40f5d64769b8cab02
+
+![DataTracks](012_DT.png)
+
+
+### Video Track Manual Controls
+
+Room SID: RM81be69fd63ca39208b49aabfe72b8726
+
+![Default](013_VTMC.png)
+
 
 ### Video Track Automatic Controls
 
-![Default view](RM-VTAC-default.png)
+![Default Video](014_VTAC_Video_Default.png)
 
-![Hiding video](RM-VTAC-hide.png)
+![176x144](014_VTAC_Video_176x144.png)
 
-![Resize to 640x480](RM-VTAC-640x480.png)
+![640x480](014_VTAC_Video_640x480.png)
 
-![Resize to 176x144](RM-VTAC-176x144.png)
+![950x540](014_VTAC_Video_950x540.png)
