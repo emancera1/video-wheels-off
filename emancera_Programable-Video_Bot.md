@@ -2,9 +2,11 @@
 
 ## Output: help
 
-Programmable Video Bot v0-SNAPSHOT
+![](Screenshots/VB_Help.png)
 
-Running as PID 8 since Fri Mar 10 12:23:12 2023
+
+Programmable Video Bot 
+
 
 I understand the follow commands/sids:
  ```
@@ -42,6 +44,8 @@ I understand the follow commands/sids:
        Displays this help information'
  ```
 ##Output:  Accounts Default Room Settings
+
+![](Screenshots/VB_Room_Settings.png)
 
 Account Info
 Created On
@@ -140,6 +144,10 @@ timestamp                 room sid                            room name         
 
 
 ##Output: Participant report including getStats, Room/Protocol track errors, codecs 
+
+![](Screenshots/VB_Participant_Summary1.png)
+
+![](Screenshots/VB_Participant_Summary2.png)
 
 Participant Analysis for PA72336d73c51accd4aebfb6fd6e8e3fe5
 Participant Info
@@ -257,6 +265,11 @@ Call Sid: CAd80ee5b58f4b09dec205e8f5aa617287 | Participant Sid: PA72336d73c51acc
 
 ##Output: Room Summary Report
 
+
+![](Screenshots/VB_Room_Analysis1.png)
+
+![](Screenshots/VB_Room_Analysis2.png)
+
 Room Info
 Room Analysis for RMae6f2fb5e196f2b99678974c2734515f
 Room Info
@@ -309,7 +322,7 @@ joined (UTC)             left (UTC)               sid                           
 2023-07-18 17:35:10.979  2023-07-18 17:37:16.256  PA3622d6cf641ded9cbfc434ade076652b  Erickphone  YES    YES          YES
  ```
 
-1:18
+
 Room Summary Report
  ```
 Summary for Room: Roomcomp | RMae6f2fb5e196f2b99678974c2734515f | ACfecd5668dfccc1bcb13195a261f5a305
@@ -423,6 +436,8 @@ No remote tracks were lost for Room sid: RMae6f2fb5e196f2b99678974c2734515f
 
 ##Output: Help
 
+![](Screenshots/VB_Help2.png)
+
 Hello, this is the Media Recordings bot and I can offer the following things!
         1. Compositions insights: type ```compositions -h``` for more info
         2. Recordings metadata: type ```recordings -h``` for more info
@@ -431,6 +446,8 @@ Hello, this is the Media Recordings bot and I can offer the following things!
  
  
  ##Output: compositions --account-sid ACfecd5668dfccc1bcb13195a261f5a305
+
+![](Screenshots/VB_Comp_AS.png)
 
 ```
    -----------------------------------------------------
@@ -445,6 +462,9 @@ Hello, this is the Media Recordings bot and I can offer the following things!
 ```
         
  ##Output: compositions --account-sid ACfecd5668dfccc1bcb13195a261f5a305 --room-sid RMae6f2fb5e196f2b99678974c2734515f
+ 
+ ![](Screenshots/VB_Comp_AS_RS.png)
+
      
 ```
  ----------------------------------------------------------
@@ -458,6 +478,7 @@ Hello, this is the Media Recordings bot and I can offer the following things!
 
  ##Output: recordings --account-sid ACfecd5668dfccc1bcb13195a261f5a305 --room-sid RMae6f2fb5e196f2b99678974c2734515f
 
+ ![](Screenshots/VB_REC_AS_RS.png)
 
 
 Media-Recordings bot
