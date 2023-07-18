@@ -463,7 +463,8 @@ Hello, this is the Media Recordings bot and I can offer the following things!
 Media-Recordings bot
 APP 
 Recordings metadata report
-         ```
+
+```
     ---------------------------------------------------------------
    | Metadata of RT498b6d52c1e27d4d23f0b872f36ee72a                |
     ---------------------------------------------------------------
@@ -764,4 +765,5 @@ Recordings metadata report
    | InternalBillForBandwidth | false                              |
    | Encrypted                | No                                 |
     ---------------------------------------------------------------
-        ```
+```
+
