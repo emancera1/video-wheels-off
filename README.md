@@ -21,5 +21,5 @@
 
 ## Programable Video Bot Outputs
 
-[Chat bot outputs](emancera_Programable-Video_Bot.md)
+[Chatbot outputs](emancera_Programable-Video_Bot.md)
 

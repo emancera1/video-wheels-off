@@ -431,8 +431,9 @@ Hello, this is the Media Recordings bot and I can offer the following things!
  
  
  ##Output: compositions --account-sid ACfecd5668dfccc1bcb13195a261f5a305
-        ``` 
-     -----------------------------------------------------
+
+```
+   -----------------------------------------------------
    | Compositions for ACfecd5668dfccc1bcb13195a261f5a305 |
     -----------------------------------------------------
    | CJ4efffabb3c09cde307d4f9f38dcb9025                  |
@@ -441,18 +442,18 @@ Hello, this is the Media Recordings bot and I can offer the following things!
    | CJ719ff3defd4986675ab5c1fda466e1f9                  |
    | CJ88b152e7c2dd59e72741a487e024069f                  |
     -----------------------------------------------------
-        ```
+```
         
  ##Output: compositions --account-sid ACfecd5668dfccc1bcb13195a261f5a305 --room-sid RMae6f2fb5e196f2b99678974c2734515f
      
-        ```
+```
  ----------------------------------------------------------
 | Compositions for room RMae6f2fb5e196f2b99678974c2734515f |
  ----------------------------------------------------------
 | CJ4efffabb3c09cde307d4f9f38dcb9025                       |
 | CJ9f0528c788506bb190142004dcd56969                       |
  ----------------------------------------------------------
-        ```
+ ```
 
 
  ##Output: recordings --account-sid ACfecd5668dfccc1bcb13195a261f5a305 --room-sid RMae6f2fb5e196f2b99678974c2734515f
