@@ -9,3 +9,17 @@
 ## Twilio Video App React
 
 [Quickstart Examples](Screenshots/emancera_twilio-video-app-react.md)
+
+## Group and P2P Comparison
+
+[Room type Comparison Example](emancera_Group_P2P_comparison.md)
+
+## Audio and Video Compositions
+
+[Audio and Video Compositions Document](emancera_Audio _Video_Compsitions.md)
+
+
+## Programable Video Bot Outputs
+
+[Chat bot outputs](emancera_Programable-Video_Bot.md)
+
