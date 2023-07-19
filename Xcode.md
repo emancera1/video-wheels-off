@@ -43,11 +43,6 @@ Edit your token server at: https://www.twilio.com/console/functions/editor/ZSefe
 ![](Screenshots/XC_5.png)
 
 
-## Joined React App Room Using Browser
-
-![](Screenshots/XC_5.png)
-
-
 ## Sharing Video Using React App On Browser
 
 ![](Screenshots/XC_6.png)
