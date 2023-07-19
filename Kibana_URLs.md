@@ -7,7 +7,7 @@ URL: https://kibana.us1.eak.twilio.com/video/goto/443d18084c335d310ea90fe14344e9
 
 ### Screenshot
 
-![](![](Screenshots/sdki-rooms.png)
+![](Screenshots/sdki-rooms.png)
 
 
 ## Index: video-insights*
@@ -16,7 +16,7 @@ URL: https://kibana.us1.eak.twilio.com/video/goto/ada85ddd83f533cb68b887704681c7
 
 ### Screenshot
 
-![](![](Screenshots/video-insights.png)
+![](Screenshots/video-insights.png)
 
 
 ## Index: video-vms-reports*
@@ -25,7 +25,7 @@ URL: https://kibana.us1.eak.twilio.com/video/goto/d8dc9048e64a9b1fc1aee68955b623
 
 ### Screenshot
 
-![](![](Screenshots/video-vms-reports.png)
+![](Screenshots/video-vms-reports.png)
 
 
 
@@ -35,7 +35,7 @@ URL: https://kibana.us1.eak.twilio.com/video/goto/0d96786d84123d01a33ec4164a7e77
 
 ### Screenshot
 
-![](![](Screenshots/video-voice-signaling.png)
+![](Screenshots/video-voice-signaling.png)
 
 
 ## Index: Network Quality Visualization*
@@ -44,7 +44,7 @@ URL: https://kibana.us1.eak.twilio.com/video/goto/4e494a5b0f818d9d593d162fb4eba6
 
 ### Screenshot
 
-![](![](Screenshots/Network_Quality.png)
+![](Screenshots/Network_Quality.png)
 
 
 ## Index: Network Quality Visualization*
@@ -53,4 +53,4 @@ URL: https://kibana.us1.eak.twilio.com/video/goto/59548273963fbf4142f9730f0011a3
 
 ### Screenshot
 
-![](![](Screenshots/Payload_Network_Quality.png)
+![](Screenshots/Payload_Network_Quality.png)
