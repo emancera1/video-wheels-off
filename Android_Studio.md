@@ -22,7 +22,7 @@ Edit your token server at: https://www.twilio.com/console/functions/editor/ZSefe
 ## Login Screen Using Passcode
 
 
-![](Screenshots/AS_1.png)
+![](Screenshots/AS.png)
 
 
 ## Twilio Video App Running After Login 
