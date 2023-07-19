@@ -16,39 +16,38 @@ Edit your token server at: https://www.twilio.com/console/functions/editor/ZSefe
 ## Twilio Video App Running on Emulator
 
 
-![](Screenshots/AS_1.png)
+![](Screenshots/XC_1.png)
 
 
 ## Login Screen Using Passcode
 
 
-![](Screenshots/AS.png)
+![](Screenshots/XC_2.png)
 
 
 ## Twilio Video App Running After Login 
 
 
-![](Screenshots/AS_2.png)
+![](Screenshots/XC_3.png)
 
 
-
-## Joined Room 
-
-
-![](Screenshots/AS_3.png)
+## Joining Room 
 
 
-## Stopped Video Sharing
+![](Screenshots/XC_4.png)
 
 
-![](Screenshots/AS_4.png)
+## Joining React App Room Using Browser
 
 
-## Twilio Video App Settings
-
-![](Screenshots/AS_5.png)
+![](Screenshots/XC_5.png)
 
 
-## Twilio Video App Advanced Settings
+## Joined React App Room Using Browser
 
-![](Screenshots/AS_6.png)
+![](Screenshots/XC_5.png)
+
+
+## Sharing Video Using React App On Browser
+
+![](Screenshots/XC_6.png)
