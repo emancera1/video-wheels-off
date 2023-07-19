@@ -11,7 +11,7 @@ order by timestamp desc
 
 ## Query Result
 
-![](Screenshots/queryresult.csv)
+![Query Result CSV](Screenshots/queryresult.csv)
 
 ### Screenshot
 
