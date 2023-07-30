@@ -84,3 +84,26 @@ div.participant.main::before {
     height: 270px;
   }
 }
+
+div#userControls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  width: 50%;
+}
+
+div#userControls > button {
+  align-items: center;
+  margin:5px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+ i#activeIcon {
+  display: flex;
+  font-size: 50px;
+ }
+ i#inactiveIcon {
+   display:none;
+ }
