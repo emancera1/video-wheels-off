@@ -6,12 +6,22 @@ Room SID: RMc29f6660a9cf71fd044fbbf40da49da8
 
 ![](00_Default_Meeting.png)
 
-Status Callback When 1st Participant joined
+##Status Callback When 1st Participant Connected
 
-![Video Track Added](SCB02.png)
+###Video Track Added
+![](SCB02.png)
 
+###Audio Track Added
+![](SCB01.png)
 
+###Participant connected
+![](SCB03.png)
 
+###Video Recording Started (Recording was enabled previously)
+![](SCB04.png)
+
+###Audio Recording Started (Recording was enabled previously)
+![](SCB05.png)
 
 
 ## Screenshots 1 Participant
@@ -22,11 +32,18 @@ Status Callback When 1st Participant joined
 
 ![](01_Audio_Disabled.png)
 
+###Callback Event Audio Disabled
+![](SCB05.png)
+
+
 ### Video Disabled
 
 **Video**
 
 ![](02_Video_Disabled.png)
+
+###Callback Event Video Disabled
+![](SCB06.png)
 
 ### Screen Sharing Enabled
 
@@ -68,7 +85,6 @@ Room SID: RM4396f69606c561f4d862ec01c10b7ea1
 Recording SID: RTd2935fcdb99216a4f7ab666e89d17e8d
 
 ![](10_Recording_Started.png)
-
 
 ### About
 
