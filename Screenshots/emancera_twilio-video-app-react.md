@@ -8,7 +8,7 @@ Room SID: RMc29f6660a9cf71fd044fbbf40da49da8
 
 Status Callback When 1st Participant joined
 
-![Video Track Added](SBC02.png)
+![Video Track Added](SCB02.png)
 
 
 
