@@ -6,6 +6,14 @@ Room SID: RMc29f6660a9cf71fd044fbbf40da49da8
 
 ![](00_Default_Meeting.png)
 
+Status Callback When 1st Participant joined
+
+![Video Track Added](SBC02.png)
+
+
+
+
+
 ## Screenshots 1 Participant
 
 ### Audio Disabled
