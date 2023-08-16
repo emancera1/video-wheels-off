@@ -6,11 +6,11 @@ Room SID: RMc29f6660a9cf71fd044fbbf40da49da8
 
 ![](SCB005.png)
 
-##Status Callback for Room Created
+## Status Callback for Room Created
 
 ![](SCB001.png)
 
-##Status Callback When 1st Participant Connected
+## Status Callback When 1st Participant Connected
 
 Participant connected
 ![](SCB002.png)
@@ -66,7 +66,7 @@ Callback Event Video Track Removed for Screen Share
 
 ![](SCB016.png)
 
-##Status Callback When 2nd Participant Connected
+## Status Callback When 2nd Participant Connected
 
 Participant connected
 ![](SCB017.png)
