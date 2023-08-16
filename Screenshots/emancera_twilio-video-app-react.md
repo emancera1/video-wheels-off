@@ -28,7 +28,7 @@ Audio Track Added
 ![](SCB007.png)
 
 Callback Event Audio Track Removed
-![](SCB006.png)
+![](SBC006.png)
 
 Callback Event Audio Track Added 
 ![](SCB009.png)
