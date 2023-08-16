@@ -4,52 +4,185 @@
 
 Room SID: RMc29f6660a9cf71fd044fbbf40da49da8
 
-![](00_Default_Meeting.png)
+![](SCB005.png)
+
+##Status Callback for Room Created
+
+![](SCB001.png)
 
 ##Status Callback When 1st Participant Connected
 
+###Participant connected
+![](SCB002.png)
+
 ###Video Track Added
-![](SCB02.png)
+![](SCB004.png)
 
 ###Audio Track Added
-![](SCB01.png)
+![](SCB003.png)
+
+
+## Audio Muted
+
+
+![](SCB007.png)
+
+###Callback Event Audio Track Removed
+![](SCB006.png)
+
+###Callback Event Audio Track Added 
+![](SCB009.png)
+
+## Video Disabled
+
+![](SCB010.png)
+
+###Callback Event Video Track Removed
+![](SCB011.png)
+
+###Callback Event Video Track Added
+![](SCB011.png)
+
+
+## Screen Sharing Enabled
+
+![](SCB013_b.png)
+
+###Callback Event Video Track Added for Screen Share
+![](SCB013.png)
+
+###Callback Event Video Track Removed for Screen Share
+![](SCB014.png)
+
+
+## Virtual Backgrounds Enabled
+
+**Blurred Background**
+
+![](SCB015.png)
+
+
+## New Participant Joined
+
+![](SCB016.png)
+
+##Status Callback When 2nd Participant Connected
 
 ###Participant connected
-![](SCB03.png)
+![](SCB017.png)
 
-###Video Recording Started (Recording was enabled previously)
-![](SCB04.png)
+###Video Track Added
+![](SCB019.png)
 
-###Audio Recording Started (Recording was enabled previously)
-![](SCB05.png)
+###Audio Track Added
+![](SCB018.png)
 
 
-## Screenshots 1 Participant
+##2nd Participant Reconnecting
+![](SCB020.png)
 
-### Audio Disabled
+###Callback Event Participant Disconnected
+![](SCB023.png)
 
-**Audio**
-
-![](01_Audio_Disabled.png)
+##Audio Disconnected
 
 ###Callback Event Audio Disabled
-![](SCB05.png)
+![](SCB021.png)
 
 
-### Video Disabled
+##Video Disconnected
 
-**Video**
+###Callback Event Video Track Removed
+![](SCB022.png)
 
-![](02_Video_Disabled.png)
 
-###Callback Event Video Disabled
-![](SCB06.png)
 
-### Screen Sharing Enabled
+##2nd Participant Reconnected
 
-![](03_Screen_Sharing_Enabled.png)
+###Callback Event Audio Track Added
+![](SCB024.png)
 
-### Speaker View Enabled
+###Callback Event Video Track Added
+![](SCB026.png)
+
+## Recording
+
+Recording SID: RTbdd746f712ed86b8c9540fdcec83b76d
+
+![](SCB027.png)
+
+###Callback Event recording-started for Video Track for Participant 1
+
+![](SCB028.png)
+
+###Callback Event recording-started for Audio Track for Participant 1
+
+![](SCB030.png)
+
+###Callback Event recording-started for Video Track for Participant 2
+
+![](SCB031.png)
+
+###Callback Event recording-started for Audio Track for Participant 2
+
+![](SCB029.png)
+
+
+##Disabled Audio and Video for participant 2 While Recodring
+
+![](SCB038.png)
+
+###Status Callback  Audio Track Disabled
+![](SCB034.png)
+
+###Status Callback  Video Track Removed
+![](SCB032.png)
+
+###Status Callback Video recording-completed
+![](SCB033.png)
+
+##Enabled Again Audio and Video for participant 2 While Recodring
+
+###Status Callback  Audio Track enabled
+![](SCB035.png)
+
+###Status Callback  Video Track Added
+![](SCB036.png)
+
+###Status Callback Video recording-started
+![](SCB037.png)
+
+
+
+##Disabled Audio and Video for participant 1 While Recodring
+
+![](SCB039.png)
+
+###Status Callback  Audio Track Disabled
+![](SCB045.png)
+
+###Status Callback  Video Track Removed
+![](SCB043.png)
+
+###Status Callback Video recording-completed
+![](SCB044.png)
+
+
+##Enabled Again Audio and Video for participant 1 While Recodring
+
+###Status Callback  Audio Track enabled
+![](SCB046.png)
+
+###Status Callback  Video Track Added
+![](SCB047.png)
+
+###Status Callback Video recording-started
+![](SCB048.png)
+
+
+
+
+## Speaker View Enabled
 
 ![](04_Speaker_View_Enabled.png)
 
@@ -58,16 +191,7 @@ Room SID: RMc29f6660a9cf71fd044fbbf40da49da8
 ![](05_Room_Monitor_Enabled.png)
 
 
-### Virtual Backgrounds Enabled
 
-**Virtual Background**
-
-
-![](06_Virtual_Background_Enabled.png)
-
-**Blurred Background**
-
-![](07_Blurred_Background_Enabled.png)
 
 
 ### Audio and Video Settings
@@ -80,11 +204,7 @@ Room SID: RM4396f69606c561f4d862ec01c10b7ea1
 
 ![](09_Chat.png)
 
-### Recording
 
-Recording SID: RTd2935fcdb99216a4f7ab666e89d17e8d
-
-![](10_Recording_Started.png)
 
 ### About
 
